@@ -26,6 +26,8 @@ go version
 go install github.com/lc/gau/v2/cmd/gau@latest
 
 # Test directory
-mkdir -p /home/test
-cd /home/test
-echo done
+mkdir test
+cd test
+
+# sftp user@remote_host get remotefile.txt
+# gau --blacklist png,jpg,gif example.com --o example-urls.txt
